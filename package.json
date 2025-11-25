@@ -1,0 +1,27 @@
+{
+  "name": "cashfree-sample",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "54.0.7",
+    "expo-router": "~6.0.4",
+    "expo-build-properties": "~1.0.9",
+
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-web": "0.21.0",
+    "react-dom": "19.1.0",
+
+    "react-native-cashfree-pg-sdk": "^2.2.5",
+    "cashfree-pg-api-contract": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2"
+  },
+  "private": true
+}
